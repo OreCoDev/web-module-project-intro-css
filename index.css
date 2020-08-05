@@ -47,13 +47,161 @@ table {
 	border-spacing: 0;
 }
 
-/* Above this line is the reset text, not design text */
+/* Above this line is the reset text, not design code */
+
+
+@import url('https://fonts.google.com/specimen/Roboto+Mono');
+
+* {
+
+	box-sizing:border-box;
+}
+/* Universal Selector, do not edit */
 
 
 body {
-    
+	font-family: 'Roboto Mono', monospace;
+	font-size: 62.5%;
+	margin: 0 auto;
+	padding: 4%;
+
+}
+/* This is only for Navigation code */
+nav {
+	text-align: center;
+	margin: 0 20;
+	font-size: 1rem;
 }
 
-img {
+.button1{
 
+		display:inline-block;
+		margin-left: 4%;
+padding: 2%;
+border-radius:10px;
+background-color: #FF764E;
+color: white;
+text-decoration: none;
+
+	
+	
+}
+
+.button2{
+		display:inline-block;
+		margin-left: 4%;
+padding: 2%;
+background-color: #5ED3EB;
+color: white;
+border-radius:10px;
+text-decoration: none;
+
+
+	
+}
+
+.button3{
+		display:inline-block;
+		margin-left:4%;
+padding:2%;
+background-color: #FFCD69;
+color: white;
+border-radius:10px;
+text-decoration: none;
+	
+		
+}
+
+
+
+/* End of Navigation code */
+
+/* Beginning of header and img code */
+
+.container {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.container img {
+width: 20%;
+border-radius: 50%;
+margin: 0 auto;
+padding: 0 2%;
+}
+.container div {
+	width: 70%;
+	display: inline-block;
+	}
+
+.container h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 3rem;
+	display: inline-block;
+	text-align: center;
+	margin: 4%;
+	width: 60%;
+}
+.container p {
+	text-align: center;
+	letter-spacing: 1.3;
+	font-size: 1.0rem;
+
+}
+
+
+
+
+/* Code for text under the header/pink background */
+.section1{
+	background-color: #DDB9A3;
+	width: 100%;
+}
+.section1 p {
+	text-align: center;
+	width: 70%;
+	font-size: 1.0rem;
+	padding: 2%;
+	color: white;
+}
+
+
+
+
+
+
+/* These are sections for the RV and campfire icons for now */
+.section2{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	text-align:center;
+	
+}
+
+.section2 img {
+	display: inline-block;
+	width: 10%;
+}
+.section2 div {
+	padding: 5%;
+	margin: 0 auto;
+}
+
+span {
+	font-weight: bold;
+}
+/* Do not touch above this line yet */
+
+/* Footer things go below this to allow for cascade */
+footer {
+	background-color: #F9E7DC;
+	width: 100%;
+}
+
+.bottomImg {
+	width: 100%;
+}
+.bump {
+	padding: 30 0;
 }
